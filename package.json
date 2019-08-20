@@ -1,0 +1,28 @@
+{
+  "name": "memory-game",
+  "version": "1.0.0",
+  "description": "memory game test",
+  "main": "memoryGame.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jasmine spec/memgame.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TauRamodise/memory-game.git"
+  },
+  "author": "Dimpho Ramodise",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TauRamodise/memory-game/issues"
+  },
+  "homepage": "https://github.com/TauRamodise/memory-game#readme",
+  "devDependencies": {
+    "jasmine": "^3.4.0"
+  },
+  "dependencies": {
+    "jsdom": "^15.1.1"
+  }
+}
